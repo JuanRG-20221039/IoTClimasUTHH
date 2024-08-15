@@ -90,7 +90,7 @@ void loop() {
     String mensaje = "Temperatura: " + String(t) + "C, Humedad: " + String(h) + "%";
 
     // Verificar estado del PIR
-    int presenciaVal = 2; //leerPIR();
+    int presenciaVal = leerPIR();
     
     mensaje += ", Presencia: " + String(presenciaVal);
 
